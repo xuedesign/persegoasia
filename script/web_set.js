@@ -13,8 +13,7 @@ window.onload = externalLinks;
 
 //圖片延遲載入
 $(function() {
-          $("#box_index").lazyload({placeholder : "../images/grey.gif",effect: "fadeIn"});
-		  $("#page_main").lazyload({placeholder : "../images/grey.gif",effect: "fadeIn"});
+          $("#page_main").lazyload({placeholder : "../images/grey.gif",effect: "fadeIn"});
       });
 
 //FB分享按鈕

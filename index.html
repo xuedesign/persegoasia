@@ -53,44 +53,62 @@
 			<button class="trigger" data-info=""><span>Trigger</span></button>
 			
             <!-- 內頁區塊 -->
-            <div id="about" class="title">
-                <div class="nav_left">
-                    <ul>
-                        <li><a href="index.html#about" title="品牌簡介">品牌簡介</a></li>
-                        <li><a href="content/shop.html" title="商品櫥窗">商品櫥窗</a></li>
-                    </ul>
-                </div>
-				<h2>沛洛歌Persegoasia</h2>
-                <div class="nav_right">
-                    <ul>
-                        <li><a href="http://persego.ecwid.com/" title="線上購買" rel="external">線上購買</a></li>
-                        <li><a href="content/contact.html" title="聯絡我們">聯絡我們</a></li>
-                    </ul>
-                </div>
-                <br class="clean">
+            <div class="title">
+               <div id="header">
+                  <div class="nav_left">
+                      <ul>
+                          <li><a href="index.html#header" title="品牌簡介" class="nav-01 navin">品牌簡介</a></li>
+                          <li><a href="content/shop.html" title="商品櫥窗" class="nav-02">商品櫥窗</a></li>
+                      </ul>
+                  </div>
+                  <h2>沛洛歌Persegoasia</h2>
+                  <div class="nav_right">
+                      <ul>
+                          <li><a href="http://persego.ecwid.com/" title="線上購買" rel="external" class="nav-03">線上購買</a></li>
+                          <li><a href="content/contact.html" title="聯絡我們" class="nav-04">聯絡我們</a></li>
+                      </ul>
+                  </div>
+                  <br class="clean">
+               </div> 
             </div>
-			<article class="content">
-				<div>
-					<p>We may define a food to be any substance which will repair the functional waste of the body, increase its growth, or maintain the heat, muscular, and nervous energy. </p>
-					<p>In its most comprehensive sense, the oxygen of the air is a food; as although it is admitted by the lungs, it passes into the blood, and there re-acts upon the other food which has passed through the stomach. It is usual, however, to restrict the term food to such nutriment as enters the body by the intestinal canal. Water is often spoken of as being distinct from food, but for this there is no sufficient reason.</p>
-				</div>
+			
+            <article class="content">
+            <div id="page_main">
+                <h3 class="ptitle_01">品牌宗旨</h3>
+			    <section id="box_brand01">
+			    	<a href="files/GMP.pdf" title="原廠GMP證明" rel="external">原廠GMP證明</a>
+                    <p>解決因乾燥引起的肌膚乾裂，最頂級指緣乳及身體乳。<br> 
+                       無添加礦物油、無添加化學香料、無添加歐盟禁用防腐劑PARABEN。<br>
+                       純精油+天然保濕因子+草本乳液，讓您在家享受頂級SPA美肌體驗。</p>
+			    </section>
+                
+                <h3 class="ptitle_02">品牌緣起</h3>
+			    <section id="box_brand03">
+			    	
+			    </section>
+                
+                <h3 class="ptitle_03">嚴選成分</h3>
+			    <section id="box_brand03">
+			    	
+			    </section>
+              </div>  	
 			</article>
+            
+            <footer>
+               <p>沛洛歌 版權所有 Persegoasia.&copy;2015 All RIGHTS RESERVED. Site by <a href="http://www.dr-idesign.com/" title="艾瑟麒有限公司" rel="external">idesign </a>&amp; <a href="http://www.xuedesign.tw/" title="開始設計工作室" rel="external">xuedesign</a>.</p>
+               <p class="hidden">製作單位：版面設計+網站製作/ 開始設計工作室 Elmo</p>
+            </footer>
             
 		</div><!-- /container -->
         
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="script/jquery.innerfade.js"></script>
-<script>
-   $(document).ready(function(){$("#portfolio").innerfade({speed:1000,timeout:3000,type:"sequence"})});
-</script>
+<script>$(document).ready(function(){$("#portfolio").innerfade({speed:1000,timeout:3000,type:"sequence"})});</script>
 <script src="script/classie.js"></script>
 <script>
 	!function(){function n(n){n=n||window.event,n.preventDefault&&n.preventDefault(),n.returnValue=!1}function e(e){for(var o=w.length;o--;)if(e.keyCode===w[o])return void n(e)}function o(e){n(e)}function t(){}function i(){window.onmousewheel=document.onmousewheel=t,document.onkeydown=e,document.body.ontouchmove=o}function d(){window.onmousewheel=document.onmousewheel=document.onkeydown=document.body.ontouchmove=null}function u(){return window.pageYOffset||v.scrollTop}function r(){if(s=u(),a&&!m){if(0>s)return!1;window.scrollTo(0,0)}return classie.has(y,"notrans")?(classie.remove(y,"notrans"),!1):l?!1:void(0>=s&&f?c(0):s>0&&!f&&c(1))}function c(n){l=!0,n?classie.add(y,"modify"):(a=!0,i(),classie.remove(y,"modify")),setTimeout(function(){f=!f,l=!1,n&&(a=!1,d())},1200)}var s,f,a,l,m=function(){var n,e=-1,o=window.navigator.userAgent,t=o.indexOf("MSIE "),i=o.indexOf("Trident/");if(t>0)e=parseInt(o.substring(t+5,o.indexOf(".",t)),10);else if(i>0){var d=o.indexOf("rv:");e=parseInt(o.substring(d+3,o.indexOf(".",d)),10)}return e>-1?e:n}(),w=[32,37,38,39,40],v=window.document.documentElement,y=document.getElementById("container"),g=y.querySelector("button.trigger"),h=u();a=0===h,i(),h&&(f=!0,classie.add(y,"notrans"),classie.add(y,"modify")),window.addEventListener("scroll",r),g.addEventListener("click",function(){c("reveal")})}();
 </script>
 <script src="script/jquery.lazyload.js"></script>
-<script src="script/jquery.ui.totop.js"></script>
-<script src="script/easing.js"></script>
-<script> $(document).ready(function(){$().UItoTop({easingType:"easeOutQuart"})}); </script>
 <script src="script/web_set.js"></script>
-	</body>
+</body>
 </html>

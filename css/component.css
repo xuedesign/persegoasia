@@ -1,4 +1,4 @@
-html, body, .container, .header{ height: 100%}
+html, body, .container, .header, .content{ height: 100%}
 
 /* Header */
 .header {
@@ -157,11 +157,11 @@ button.trigger span::before {
 /* Conent */
 .content {
 	margin: 0 auto;
-	padding: 0 0 3em}
+	padding: 0/*0 0 3em*/}
 
 .content > div:not(.title) {
 	margin: -80px auto 0;
-	max-width: 900px;
+	/*max-width: 900px;*/
 	padding: 0 1.25em}
 .content > div:not(.title) p { margin: 0 auto 1.5em auto}
 .content > div:not(.title) p:first-child { font-size: 1.35em}
@@ -914,9 +914,7 @@ button.trigger span::before {
 	position: relative;
 	top: auto;
 	left: auto;
-	width:1240px;
-	margin:0 auto;
-	padding:0 0 0  /*6em 1em 2em*/}
+	padding:0  /*6em 1em 2em*/}
 
 .intro-effect-push .content > div {
 	margin-top: 50px;

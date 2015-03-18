@@ -156,13 +156,7 @@ a:hover, a:focus {
 }
 
 @media screen and (max-width: 40em) {
-
-	.codrops-icon span {
-		display: none;
-	}
-
-	.related {
-		font-size: 80%;
-	}
-
+.codrops-icon span {display: none}
+.related {font-size: 80%}
+.codrops-top span.right{ display:none}
 }

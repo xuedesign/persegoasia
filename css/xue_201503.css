@@ -6,6 +6,7 @@
 
 ***********************************************************************************************/
 .clean{ clear:both}
+.hidden{ display:none}
 #subnav{
 	display: block;
 	width:165px;
@@ -25,7 +26,11 @@
 #subnav .subnav-03{ background-position:-70px 0}
 #subnav .subnav-03:hover{ background-position:-70px -35px}
 
-.intro-effect-push>.title h2{
+#header{
+	display:block;
+	width:1240px;
+	margin:0 auto}
+#header h2{
 	display:block;
 	float:left;
 	width:185px;
@@ -34,14 +39,81 @@
 	text-indent:-9999px;
 	margin:0;
 	padding:0}
-.intro-effect-push>.title .nav_left, .intro-effect-push>.title .nav_right{
+#header .nav_left, #header .nav_right{
 	display:block;
 	width:526px;
-	padding-top:80px;}
-.intro-effect-push>.title .nav_left{ float:left}	
-.intro-effect-push>.title .nav_right{ float:right}
-.intro-effect-push>.title .nav_left ul, .intro-effect-push>.title .nav_right ul{
-	border-top:2px solid #d9a5a9;
-	border-bottom:2px solid #d9a5a9}
-.intro-effect-push>.title .nav_left li, .intro-effect-push>.title .nav_right li{
-	display: inline-block
+	padding-top:80px}
+#header .nav_left{ float:left}	
+#header .nav_right{ float:right}
+#header .nav_left ul, #header .nav_right ul{
+	border-top:2px solid #e978aa;
+	border-bottom:2px solid #e978aa}
+#header .nav_left li, #header .nav_right li{ display:inline-block; width:260px}		
+#header .nav_left li a, #header .nav_right li a{
+	display:block;
+	width:86px;
+	height:25px;
+	text-indent:-9999px;
+	margin:5px 87px 0}
+#header .nav-01{ background:url(../images/bg_nav.png) no-repeat}
+#header .nav-01:hover, #header .nav-01.navin{ background:url(../images/bg_nav.png) 0 -25px no-repeat}
+#header .nav-02{ background:url(../images/bg_nav.png) -86px 0 no-repeat}
+#header .nav-02:hover, #header .nav-02.navin{ background:url(../images/bg_nav.png) -86px -25px no-repeat}
+#header .nav-03{ background:url(../images/bg_nav.png) -172px 0 no-repeat}
+#header .nav-03:hover{ background:url(../images/bg_nav.png) -172px -25px no-repeat}
+#header .nav-04{ background:url(../images/bg_nav.png) -258px 0 no-repeat}
+#header .nav-04:hover, #header .nav-04.navin{ background:url(../images/bg_nav.png) -258px -25px no-repeat}
+
+footer{
+	display:block;
+	width:1240px;
+	margin:50px auto;
+	border-top:2px solid #e978aa;
+	text-align:center;
+	padding-top:14px}
+footer p{
+	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#404040;
+	/*text-shadow:1px 1px 0 #E9E8E8*/}
+footer a:link,footer a:visited{ color:#404040; text-decoration:none}
+
+#page_main{
+	display:block;
+	width:1100px;
+	margin:50px auto}
+#page_main h3{
+	display:block;
+	width:100%;
+	height:43px;
+	background:url(../images/bg_pagetitle.png) no-repeat;
+	text-indent:-9999px}
+#page_main .ptitle_01{ background-position:0 0}
+#page_main .ptitle_02{ background-position:0 -43px}	
+#page_main .ptitle_03{ background-position:0 -86px}	
+#page_main section{ display:block; width:1100px; margin:5px auto 20px}
+#box_brand01{
+	display:block;
+	position:relative;
+	width:1100px;
+	height:137px;
+	background:url(../images/bg_brand01.jpg) no-repeat}
+#box_brand01 a{
+	display:block;
+	position:absolute;
+	top:-29px;
+	right:-26px;
+	width:145px;
+	height:125px;
+	background:url(../images/btn_goldgmp.png) no-repeat;
+	text-indent:-9999px}
+#box_brand01 p{
+	display:block;
+	width:480px;
+	font-size:15px;
+	color:#404040;
+	line-height:30px;
+	margin-left:600px;
+	padding-top:25px;
+	text-shadow: 1px 1px 0px #feeff2}		
+				
