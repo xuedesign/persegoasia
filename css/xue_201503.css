@@ -91,7 +91,7 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 #page_main .ptitle_01{ background-position:0 0}
 #page_main .ptitle_02{ background-position:0 -43px}	
 #page_main .ptitle_03{ background-position:0 -86px}	
-#page_main section{ display:block; width:1100px; margin:5px auto 20px}
+#page_main section{ display:block; width:1100px; margin:5px auto 50px}
 #box_brand01{
 	display:block;
 	position:relative;
@@ -115,5 +115,41 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	line-height:30px;
 	margin-left:600px;
 	padding-top:25px;
-	text-shadow: 1px 1px 0px #feeff2}		
+	text-shadow: 1px 1px 0px #feeff2}
+#box_brand02 p{
+	font-size:15px;
+	color:#404040;
+	line-height:30px;
+	text-shadow: 1px 1px 0px #feeff2;
+	margin:15px 50px;
+	text-indent:30px}
+#box_brand03 h4{
+	font-size:15px; 
+    color:#62696f;
+	text-shadow: 1px 1px 0px #feeff2;
+	padding-left:12px}
+#box_brand03 li{
+	display:block;
+	width:1030px;
+	min-height:150px;
+	margin:0 auto;
+	border-bottom:1px dashed #d3d3d2}
+#box_brand03 li:last-child{border-bottom:none}
+#box_brand03 .components_pic, #box_brand03 .components_info{ display:block; float:left; padding:25px 0}
+#box_brand03 .components_pic{
+	width:190px}
+#box_brand03 .components_pic img{
+	display:block;
+	width:134px;
+	height:134px;
+	margin:0 auto 10px}	
+#box_brand03 .components_pic h4{ text-align:center; text-shadow: 1px 1px 0px #feeff2; letter-spacing:1px}	
+#box_brand03 .components_info{ width:840px}
+#box_brand03 p{
+	font-size:15px;
+	color:#404040;
+	line-height:25px;
+	text-shadow: 1px 1px 0px #feeff2}
+#box_brand03 p span{ display:block; padding-top:55px}			
+.souce{ text-align:right}	 						
 				

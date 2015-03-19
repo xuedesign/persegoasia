@@ -156,6 +156,7 @@ button.trigger span::before {
 
 /* Conent */
 .content {
+	min-width:1280px;
 	margin: 0 auto;
 	padding: 0/*0 0 3em*/}
 
@@ -912,10 +913,14 @@ button.trigger span::before {
 
 .intro-effect-push > .title {
 	position: relative;
+	width:100%;
+	min-width:1240px;
 	top: auto;
 	left: auto;
 	padding:0  /*6em 1em 2em*/}
-
+.intro-effect-push .content{
+	width:100%;
+	min-width:1240px}
 .intro-effect-push .content > div {
 	margin-top: 50px;
 	color: #b2b2c0;
