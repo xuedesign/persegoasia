@@ -153,6 +153,30 @@ button.trigger span::before {
 	speak: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale}
+	
+/*elmo add #20150319*/
+.clean{ clear:both}
+.hidden{ display:none}
+#subnav{
+	display: block;
+	position:absolute;
+	right:0;
+	width:165px;
+	margin-right:55px}
+#subnav li a{
+	display:block;
+	float:left;
+	width:35px;
+	height:35px;
+	text-indent:-9999px;
+	background:url(../images/btn_subnav.png);
+	margin:0 10px}
+#subnav .subnav-01{ background-position:0 0}
+#subnav .subnav-01:hover{ background-position:0 -35px}
+#subnav .subnav-02{ background-position:-35px 0}
+#subnav .subnav-02:hover{ background-position:-35px -35px}
+#subnav .subnav-03{ background-position:-70px 0}
+#subnav .subnav-03:hover{ background-position:-70px -35px}	
 
 /* Conent */
 .content {
