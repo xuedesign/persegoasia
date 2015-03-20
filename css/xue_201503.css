@@ -230,7 +230,6 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	height:127px;
 	background:url(../images/bg_goldline.png) no-repeat}
 
-#list_products{}
 #list_products li>a{
 	display:block;
 	float:left;
@@ -270,4 +269,104 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	width:279px;
 	height:365px;
 	background:url(../images/cover_pcute.png) no-repeat}
+
+.p_img{
+	display:block;
+	float:left;
+	position:relative;
+	width:304px;
+	padding:65px 0 0 60px;
+	margin-bottom:30px}
+.p_img span{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:99;
+	width:364px;
+	height:459px;
+	background:url(../images/cover_pcute-big.png) no-repeat}	
+.p_main{
+	display:block;
+	float:right;
+	width:664px;
+	padding:50px 0 50px 70px}
+.p_main h4{
+	display:block;
+	float:left;
+	width:62%;
+	background:url(../images/pot_pink.png) no-repeat;
+	padding-left:45px}
+.p_main p{
+	display:block;
+	float:right;
+	width:28%;
+	text-align:right;
+	padding-right:15px}
+.p_main h4,	.p_main p{ font-size:1.25em; color:#e978aa; line-height:43px}
+.p_main hr{ color:#e978aa; opacity:.3; size:5px}
+
+.p_main h5{
+	font-size:1.125em;
+	line-height:35px;
+	color:#e978aa;
+	padding-left:40px}
+.p_main ul{ padding:0 30px 20px 50px}
+.p_main li{
+	list-style:none;
+	font-size:0.875em;
+	line-height:22px;
+	margin-left:0;
+	padding:8px 10px;
+	border-bottom:1px dashed #CCC}
+
+.box_btn{ display:block; width:314px; padding-left:60px}
+.box_btn a{
+	display: inline-block;
+	width:120px;
+	font-size:.873em;
+	line-height:35px;
+	text-align:center;
+	letter-spacing:1px;
+	text-decoration:none;
+	text-shadow:0 0 5px #999;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+	margin:0 10px}
+.box_btn .btn_back{
+	color:#FFF;
+	background: -webkit-gradient(linear, left top, right top, from(#E9CED2), to(#cccccc));
+    background: -webkit-linear-gradient(top, #E9CED2, #cccccc);
+    background: -moz-linear-gradient(top, #E9CED2, #cccccc);
+    background: -o-linear-gradient(top, #E9CED2, #cccccc);
+    background: -ms-linear-gradient(top, #E9CED2, #cccccc);
+    background: linear-gradient(top, #E9CED2, #cccccc);
+    background-color: #E9CED2}
+.box_btn .btn_back:hover{
+	color:#FFF;
+	background: -webkit-gradient(linear, left top, right top, from(#cccccc), to(#E9CED2));
+	background: -webkit-linear-gradient(top, #cccccc, #E9CED2);
+	background: -moz-linear-gradient(top, #cccccc, #E9CED2);
+	background: -o-linear-gradient(top, #cccccc, #E9CED2);
+	background: -ms-linear-gradient(top, #cccccc, #E9CED2);
+	background: linear-gradient(top, #cccccc, #E9CED2);
+	background-color: #cccccc}		
+.box_btn .btn_buy{
+	color:#FFF;
+	background: -webkit-gradient(linear, left top, right top, from(#FBAC91), to(#E978AA));
+    background: -webkit-linear-gradient(top, #FBAC91, #E978AA);
+	background: -moz-linear-gradient(top, #FBAC91, #E978AA);
+	background: -o-linear-gradient(top, #FBAC91, #E978AA);
+	background: -ms-linear-gradient(top, #FBAC91, #E978AA);
+	background: linear-gradient(top, #FBAC91, #E978AA);
+	background-color: #FBAC91}
+.box_btn .btn_buy:hover{
+	background: -webkit-gradient(linear, left top, right top, from(#E978AA), to(#FBAC91));
+	background: -webkit-linear-gradient(top, #E978AA, #FBAC91);
+	background: -moz-linear-gradient(top, #E978AA, #FBAC91);
+	background: -o-linear-gradient(top, #E978AA, #FBAC91);
+	background: -ms-linear-gradient(top, #E978AA, #FBAC91);
+	background: linear-gradient(top, #E978AA, #FBAC91);
+	background-color: #E978AA}					
 					
