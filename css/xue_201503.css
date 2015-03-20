@@ -123,7 +123,9 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	text-indent:-9999px}
 #page_main .ptitle_01{ background-position:0 0}
 #page_main .ptitle_02{ background-position:0 -43px}	
-#page_main .ptitle_03{ background-position:0 -86px}	
+#page_main .ptitle_03{ background-position:0 -86px}
+#page_main .ptitle_04{ background-position:0 -129px}
+#page_main .ptitle_05{ background-position:0 -172px}	
 
 /*2-4 返回頂端鈕*/
 #toTop{
@@ -155,12 +157,13 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 ===============================================================================================*/
 /*3-1.品牌簡介*/
 #page_main section{ display:block; width:1100px; margin:5px auto 50px}
-#box_brand01{
+#box_brand01, #brand_mind{
 	display:block;
 	position:relative;
 	width:1100px;
-	height:137px;
-	background:url(../images/bg_brand01.jpg) no-repeat}
+	height:137px}
+#box_brand01{ background:url(../images/bg_brand01.jpg) no-repeat}
+#brand_mind{ background:url(../images/bg_brand-mind.jpg) no-repeat}	
 #box_brand01 a{
 	display:block;
 	position:absolute;
@@ -215,4 +218,56 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	text-shadow: 1px 1px 0px #feeff2}
 #box_brand03 p span{ display:block; padding-top:55px}			
 .souce{ text-align:right}	 						
-				
+
+/*3-1.商品櫥窗*/
+#brand_mind h4{ display:none}
+#brand_mind span{
+	display:block;
+	position:absolute;
+	top:-12px;
+	right:-10px;
+	width:180px;
+	height:127px;
+	background:url(../images/bg_goldline.png) no-repeat}
+
+#list_products{}
+#list_products li>a{
+	display:block;
+	float:left;
+	position:relative;
+	width:279px;
+	height:363px;
+	margin:0 43px 70px;
+	overflow:hidden}
+#list_products img{
+	display:block;
+	width:224px;
+	height:248px;
+	margin:50px 0 0 49px}
+#list_products a:link>h4{
+	display:block;
+	width:224px;
+	height:38px;
+	background:url(../images/bg_shoph4.png) repeat-x;
+	margin-left:49px;
+	padding-top:10px;
+	text-align:center;
+	font-size:.938em;
+	color:#923a48;
+	text-shadow:1px 1px 0 #fef4f6;
+	letter-spacing:1px}
+#list_products a:hover>h4{
+	background:url(../images/bg_shoph4.png) 0 -60px repeat-x;
+	color: #fef4f6;
+	text-shadow:none}	
+#list_products a, #list_products a:visited{text-decoration:none}	
+#list_products span{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:99;
+	width:279px;
+	height:365px;
+	background:url(../images/cover_pcute.png) no-repeat}
+					
