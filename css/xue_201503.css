@@ -288,6 +288,7 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	background:url(../images/cover_pcute-big.png) no-repeat}	
 .p_main{
 	display:block;
+	position:relative;
 	float:right;
 	width:664px;
 	padding:50px 0 50px 70px}
@@ -305,6 +306,36 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	padding-right:15px}
 .p_main h4,	.p_main p{ font-size:1.25em; color:#e978aa; line-height:43px}
 .p_main hr{ color:#e978aa; opacity:.3; size:5px}
+.p_main .btn_gas{
+	display:block;
+	position:absolute;
+	top:115px;
+	right:5px;
+	padding:3px 8px;
+	font-size:.813em;
+	line-height:30px;
+	color:#FFF;
+	letter-spacing:1px;
+	text-decoration:none;
+	text-align:center;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+	background: -webkit-gradient(linear, left top, right top, from(#FBAC91), to(#E978AA));
+    background: -webkit-linear-gradient(top, #FBAC91, #E978AA);
+	background: -moz-linear-gradient(top, #FBAC91, #E978AA);
+	background: -o-linear-gradient(top, #FBAC91, #E978AA);
+	background: -ms-linear-gradient(top, #FBAC91, #E978AA);
+	background: linear-gradient(top, #FBAC91, #E978AA);
+	background-color: #FBAC91}
+.btn_gas:hover{
+	background: -webkit-gradient(linear, left top, right top, from(#E978AA), to(#FBAC91));
+	background: -webkit-linear-gradient(top, #E978AA, #FBAC91);
+	background: -moz-linear-gradient(top, #E978AA, #FBAC91);
+	background: -o-linear-gradient(top, #E978AA, #FBAC91);
+	background: -ms-linear-gradient(top, #E978AA, #FBAC91);
+	background: linear-gradient(top, #E978AA, #FBAC91);
+	background-color: #E978AA}
 
 .p_main h5{
 	font-size:1.125em;
@@ -368,5 +399,35 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	background: -o-linear-gradient(top, #E978AA, #FBAC91);
 	background: -ms-linear-gradient(top, #E978AA, #FBAC91);
 	background: linear-gradient(top, #E978AA, #FBAC91);
-	background-color: #E978AA}					
+	background-color: #E978AA}
+
+/*3-3 聯絡我們*/
+#box_contact{
+	display:block;
+	position:relative;
+	float:left;
+	width:450px;
+	padding:15px 0 0 45px}
+#box_contact h4, #box_cocial h4{
+	font-size:1.25em; line-height:28px; color:#E978AA; padding-bottom:8px}
+#box_contact li{
+	font-size:.938em;
+	line-height:35px;
+	padding:5px 25px;
+	margin-right:100px;
+	border-bottom:1px dashed #C9C9C9}
+#box_contact span{
+	display:block;
+	position:absolute;
+	bottom:-400px;
+	right:10px;
+	width:319px;
+	height:221px;
+	background:url(../images/pic_rose.png) no-repeat}	
+#box_cocial{
+	display:block;
+	float:right;
+	width:600px;
+	min-height:550px;
+	padding-top:15px}						
 					
