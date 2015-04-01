@@ -295,13 +295,13 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 .p_main h4{
 	display:block;
 	float:left;
-	width:62%;
+	width:50%;
 	background:url(../images/pot_pink.png) no-repeat;
 	padding-left:45px}
 .p_main p{
 	display:block;
 	float:right;
-	width:28%;
+	width:40%;
 	text-align:right;
 	padding-right:15px}
 .p_main h4,	.p_main p{ font-size:1.25em; color:#e978aa; line-height:43px}
